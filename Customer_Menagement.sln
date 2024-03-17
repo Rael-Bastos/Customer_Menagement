@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customer_Menagement_API", "Customer_Menagement_API.csproj", "{3B09805C-5350-48FB-B6D3-959D34ACBD33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customer_Menagement_API", "API\Customer_Menagement_API.csproj", "{3B09805C-5350-48FB-B6D3-959D34ACBD33}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{4B355F34-7B67-42A3-A7A4-44EFE1C7090B}"
 EndProject
@@ -13,15 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BA7FC6FC-A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Secondary", "Secondary", "{BB7E581B-CF2A-4F8F-A9C9-638FF49E0151}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\Domain\Domain.csproj", "{1AA3E507-D728-496D-BD22-3C7DDD2953AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{1AA3E507-D728-496D-BD22-3C7DDD2953AB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "..\Application\Application.csproj", "{77BD4B03-F399-46FE-9893-469A86FC505A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{77BD4B03-F399-46FE-9893-469A86FC505A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Data", "..\Infra.Data\Infra.Data.csproj", "{64A80E4B-305A-47E6-8833-47EF488BE801}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Data", "Infra.Data\Infra.Data.csproj", "{64A80E4B-305A-47E6-8833-47EF488BE801}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Documents", "..\Infra.Documents\Infra.Documents.csproj", "{05435765-62DF-40A7-83FD-8D8EA413B032}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Documents", "Infra.Documents\Infra.Documents.csproj", "{05435765-62DF-40A7-83FD-8D8EA413B032}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Core", "..\Tests.Core\Tests.Core.csproj", "{953B25A1-E551-42C2-A943-6743256A5FBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Core", "Tests.Core\Tests.Core.csproj", "{953B25A1-E551-42C2-A943-6743256A5FBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
